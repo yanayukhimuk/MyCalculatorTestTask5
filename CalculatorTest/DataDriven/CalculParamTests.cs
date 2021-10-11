@@ -23,10 +23,5 @@
             Assert.AreEqual(expectedOutput, input / 2);
         }
 
-        [Test]
-        public void RandomTest([Random(5)] double x)
-        {
-            Console.WriteLine("X = " + x);
-        }
     }
 }
